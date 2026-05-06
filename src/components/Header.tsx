@@ -17,9 +17,7 @@ export function Header() {
       <div className="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-3 sm:h-16 sm:flex-row sm:items-center sm:justify-between sm:gap-4 sm:px-6 sm:py-0 lg:px-8">
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-              <span className="text-sm font-bold text-primary-foreground">✓</span>
-            </div>
+            <img src="/mp-logo.svg" alt="MP" className="h-8 w-8 rounded-lg" />
             <span className="text-lg font-bold text-foreground">ToDo</span>
           </Link>
 

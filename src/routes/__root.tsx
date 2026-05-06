@@ -37,11 +37,23 @@ export const Route = createRootRoute({
       { property: "og:description", content: "Discover the latest smartphones, laptops, and accessories at ToDo." },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "ToDo" },
+      { property: "og:image", content: "https://tanstack-start-app.mrbob101signal.workers.dev/mp-logo.svg" },
+      { property: "og:image:alt", content: "MP logo" },
       { name: "twitter:title", content: "ToDo - Premium Tech Gadgets" },
       { name: "twitter:description", content: "Discover the latest smartphones, laptops, and accessories at ToDo." },
+      { name: "twitter:image", content: "https://tanstack-start-app.mrbob101signal.workers.dev/mp-logo.svg" },
       { name: "twitter:card", content: "summary" },
     ],
     links: [
+      {
+        rel: "icon",
+        href: "/mp-logo.svg",
+        type: "image/svg+xml",
+      },
+      {
+        rel: "apple-touch-icon",
+        href: "/mp-logo.svg",
+      },
       {
         rel: "stylesheet",
         href: appCss,
